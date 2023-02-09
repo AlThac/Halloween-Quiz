@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="Alquiz.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Al Thac's Quiz" />
+    <title>Al Quiz (take seriously)</title>
+  </head>
+
+  <body>
+
+    <header>
+      <img id=logo src="https://mail.google.com/mail/u/0?ui=2&ik=a68b3f7d2f&attid=0.1&permmsgid=msg-a:r3244612940341493096&th=18634b7997168074&view=att&disp=safe&realattid=18634b78497ed7d4ef81">
+	<h1>Al Thac's Halloween Quiz</h1>
+	<nav>
+	  <ul>
+          <li><a href="home" id="HOME">Home</a></li>
+          <li><a href="about" id="ABOUT">About</a></li>
+          <li><a href="contact" id="CONTACT">Contact</a></li>
+        </ul>
+	</nav>
+    </header>
+
+    <main>
+	<form method="post" action="https://instagram.com">
+
+        <section role="region" aria-labelledby="student-info">
+	    <h2 id="applicant-info">Applicant Info</h2>
+          <div class="info">
+		<label for="applicant-name">Name</label>
+		<input id="applicant-name" type="" name="First-and-Last" placeholder="Ex: Al Thac"/>
+		</div>
+          <div class="info">
+		<label for="applicant-email">Email</label>
+		<input id="applicant-email" type="email" name="email"/>
+		</div>
+          <div class="info">
+		<label for="DOB">Birth Date<span class="sr-only">(Date of Birth)</span></label>
+		<input id="DOB" type="date" name="DOB"/>
+		</div>
+    </section>
+        <section role="region" aria-labelledby="questions">
+		<h2 id="questions">Questions</h2>
+          <div class="question-block">
+            <p>1</p>
+            <h3>You are going to be Micheal Myers for Halloween.</h3>
+            <fieldset class="question">
+			<legend></legend>
+              <ul class="answers-list">
+                <li>
+			<label for="q1-a1">
+			   <input type="radio" name="question-1" id="q1-a1" value="true"/>
+				True
+			</label>
+		    </li>
+                <li>
+			<label for="q1-a2">
+				<input type="radio" name="question-1" id="q1-a2" value="false"/>
+				False
+			</label>
+		    </li>
+              </ul>
+		</feildset>
+          </div>
+          <div class="question-block">
+            <p>2</p>
+            <h3>You are going to be Jason Voorhees for Halloween.</h3>
+            <fieldset class="question">
+			<legend></legend>
+              <ul class="answers-list">
+                <li>
+			<label for="q2-a1">
+				<input type="radio" name="question-2" id="q2-a1" value="true"/>
+				True
+			</label>
+		    </li>
+                <li>
+			<label for="q2-a2">
+				<input type="radio" name="question-2" id="q2-a2" value="false"/>
+				False
+			</label>
+		    </li>
+              </ul>
+		</feildset>
+          </div>
+        </section>
+
+        <section role="region" aria-labelledby="personal-questions">
+		<h2 id="personal-questions">Personal-questions</h2>
+		<div class="formrow">
+            <div class="question-block">
+		<label for="block-1">Did you choose false on both questions above</label>
+            </div>
+            <div class="answer">
+		  <select name="block-1" id="block-1" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="question-block">
+		<label for="block-2">If so, who would you like to be?</label>
+            </div>
+            <div class="answer">
+			<textarea id="block-2" name="block-2" placeholder="what do you want" rows=" 3" cols="50">
+            </textarea>
+            </div>
+          </div>		
+	  </section>
+      <button>Submit</button>
+      </form>
+    </main>
+    <footer>
+      <address>
+        <a href="https://facebook.com">Facebook</a><br />
+        <a href="https://instagram.com">Instagram</a><br />
+        Baltimore<br />
+        Maryland<br />
+        USA
+      </address>
+    </footer>
+  </body>
+</html>
